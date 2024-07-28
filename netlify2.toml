@@ -1,11 +1,18 @@
-{
-  "name": "portfolio",
-  "version": "1.0.0",
-  "description": "Nethra's Portfolio",
-  "scripts": {
-    "start": "http-server ./"
-  },
-  "dependencies": {
-    "http-server": "^14.0.0"
-  }
-}
+# Define the build settings for your site
+[build]
+  # Command to build the site (leave empty if not using a build tool)
+  command = "echo 'No build command specified'"
+  # Directory to publish (set this to the root directory if no build step)
+  publish = "/"
+
+# Redirects for Single Page Application (SPA) routing
+[[redirects]]
+  from = "/*"
+  to = "/port.html"
+  status = 200
+
+# Basic headers configuration
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
