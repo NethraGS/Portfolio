@@ -5,7 +5,7 @@ href="style.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nethra</title>
+    <title>🌻Nethra</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
@@ -36,6 +36,20 @@ href="style.css">
                 color: #c07f07; 
                 margin: 0; 
             }
+            @keyframes slideIn {
+            from {
+                transform: translateX(-100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        .intro p {
+            animation: slideIn 3s ease-in-out;
+        }
     </style>
 </head>
 <body>
@@ -62,7 +76,7 @@ href="style.css">
                 <button class="resume-button" onclick="window.location.href='https://drive.google.com/file/d/1nbQQ_4_OkihjxZi8RG_xzyASHboJNVG7/view?usp=drivesdk'">Download Resume</button>
             </div>
             <div class="profile-pic">
-                <img src="nethrafac.jpg" alt="Profile Picture">
+                <img src="ai_fs.jpg" alt="Profile Picture">
             </div>
         </div>
     </section>
