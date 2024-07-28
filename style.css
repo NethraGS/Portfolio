@@ -59,7 +59,7 @@ nav ul {
     }
 
 #home {
-    background: linear-gradient(to right, #0e1013 40%, #3a0000 60%, #30003d); 
+    background: linear-gradient(to right, #0e1013 30%, #37001ff7 70%, #320147); 
     padding: 4em 0;
     text-align: center;
 }
@@ -89,9 +89,9 @@ nav ul {
 }
 
 .profile-pic img {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
+    width: 350px;
+    height: 450px;
+    border-radius: 55%;
     object-fit: cover;
 }
 
